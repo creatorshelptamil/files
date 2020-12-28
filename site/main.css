@@ -12,10 +12,17 @@
     white-space: pre-wrap;
     word-break: break-word;
     line-height: 1.4em;
-    padding: 15px 5px;
+    padding: 25px 5px;
     margin: 0;
     border: 1px solid rgba(155, 155, 155, 0.3);
     border-radius: 2px;
+    background: #1e1e1e !important;
+}
+.cht-codesnippet .code-box * {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
 }
 .cht-codesnippet .cbmsg,
 .cht-codesnippet .ctmsg {
@@ -27,7 +34,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    padding: 3px 5px;
+    padding: 1px 10px;
 }
 .cht-codesnippet .ctmsg {
     top: 0;
