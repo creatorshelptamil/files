@@ -17,7 +17,7 @@
     border: 1px solid rgba(155, 155, 155, 0.3);
     border-radius: 2px;
 }
-.cht-codesnippet .code_box * {
+.code_box * {
     -webkit-user-select: all;
        -moz-user-select: all;
         -ms-user-select: all;
