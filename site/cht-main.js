@@ -1,3 +1,9 @@
+/*
+* Created & Maintained By Creators Help Tamil
+* Author : Admin Of Creators Help Tamil
+* Visit Website : https://www.creatorshelptamil.com/
+* YouTube : https://www.youtube.com/results?q=creators+help+tamil
+*/
 var img = document.querySelectorAll("img");
 for (var i = 0; i < img.length; i++) {
 if (img[i].hasAttribute("data-src") === false) {
