@@ -1,9 +1,10 @@
-/*
+/*!
 * Created & Maintained By Creators Help Tamil
 * Author : Admin Of Creators Help Tamil
 * Visit Website : https://www.creatorshelptamil.com/
 * YouTube : https://www.youtube.com/results?q=creators+help+tamil
 */
+function imgInt() {
 var img = document.querySelectorAll("img");
 for (var i = 0; i < img.length; i++) {
 if (img[i].hasAttribute("data-src") === false) {
@@ -12,6 +13,9 @@ img[i].removeAttribute("src");
 img[i].setAttribute("class", img[i].classList + " lazyload blur-up");
 }
 }
+}
+imgInt();
+function iframeInt() {
 var iframe = document.querySelectorAll("iframe");
 for (var i = 0; i < iframe.length; i++) {
 if (iframe[i].hasAttribute("data-src") === false) {
@@ -20,6 +24,9 @@ iframe[i].removeAttribute("src");
 iframe[i].setAttribute("class", iframe[i].classList + " lazyload blur-up");
 }
 }
+}
+iframeInt();
+function hljsInt() {
 var cs = document.querySelectorAll(".cht-codesnippet");
 cs.forEach((cs) => {
 var codecls = cs.querySelector(".code_box").classList.length;
@@ -37,6 +44,8 @@ for (var i = 0; i < c.length; i++) {
 c[i].setAttribute("ondblclick", "ctc(this)");
 c[i].setAttribute("title", "Double Click To Copy");
 }
+}
+hjjsInt();
 function ctc(cls) {
 var range = document.createRange();
 range.selectNode(cls);
