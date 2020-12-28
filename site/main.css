@@ -6,7 +6,7 @@
     font-size: 12px;
     margin: 1em auto;
 }
-.cht-codesnippet .code-box {
+.cht-codesnippet .code_box {
     display: block;
     font-size: 13px;
     white-space: pre-wrap;
@@ -16,9 +16,8 @@
     margin: 0;
     border: 1px solid rgba(155, 155, 155, 0.3);
     border-radius: 2px;
-    background: #1e1e1e !important;
 }
-.cht-codesnippet .code-box * {
+.cht-codesnippet .code_box * {
     -webkit-user-select: all;
        -moz-user-select: all;
         -ms-user-select: all;
@@ -43,7 +42,7 @@
 .cht-codesnippet .cbmsg {
     bottom: 0;
 }
-.cht.code-box .hlit {
+.cht.code_box .hlit {
     color: #fff;
     background-color: #595;
     padding: 0 1px;
@@ -54,7 +53,7 @@
     -ms-user-select: all;
 }
 
-.cht.code-box .hlit:nth-child(odd) {
+.cht.code_box .hlit:nth-child(odd) {
     color: #000;
     background-color: #d8e8f8;
 }
@@ -78,7 +77,7 @@ code.cht.inc {
     -ms-user-select: none;
 }
 
-.code-box,
+.code_box,
 code.cht.inc {
     user-select: text;
     -moz-user-select: text;
