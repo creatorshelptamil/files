@@ -122,7 +122,10 @@ img {
     border-radius: 3px;
     font-size: 15px
 }
-
+.cht-ytwbtn a {
+    text-decoration: none;
+    color: inherit
+}
 figure {
     border: 1px #ccc solid;
     padding: 4px;
