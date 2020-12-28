@@ -1,3 +1,10 @@
+* {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 .cht-codesnippet {
     position: relative;
     display: block;
@@ -6,16 +13,22 @@
     font-size: 12px;
     margin: 1em auto;
 }
-.cht-codesnippet .code-box {
+.cht-codesnippet .code_box {
     display: block;
     font-size: 13px;
     white-space: pre-wrap;
     word-break: break-word;
     line-height: 1.4em;
-    padding: 15px 5px;
+    padding: 25px 5px;
     margin: 0;
     border: 1px solid rgba(155, 155, 155, 0.3);
     border-radius: 2px;
+}
+.code_box * {
+    -webkit-user-select: all;
+       -moz-user-select: all;
+        -ms-user-select: all;
+            user-select: all;
 }
 .cht-codesnippet .cbmsg,
 .cht-codesnippet .ctmsg {
@@ -27,7 +40,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    padding: 3px 5px;
+    padding: 1px 10px;
 }
 .cht-codesnippet .ctmsg {
     top: 0;
@@ -36,7 +49,7 @@
 .cht-codesnippet .cbmsg {
     bottom: 0;
 }
-.cht.code-box .hlit {
+.cht.code_box .hlit {
     color: #fff;
     background-color: #595;
     padding: 0 1px;
@@ -47,32 +60,18 @@
     -ms-user-select: all;
 }
 
-.cht.code-box .hlit:nth-child(odd) {
+.cht.code_box .hlit:nth-child(odd) {
     color: #000;
     background-color: #d8e8f8;
 }
-
-code.cht.inc {
-    background-color: #f9f9f9;
-    font-family: Monospace;
-    font-size: 12px;
-    color: #00f;
-    padding: 1px 5px;
-    margin: 0 2px;
-    border: 1px dashed #e9ebee;
-    border-radius: 3px;
-    font-weight: 400;
+.cht.in.code_box {
+   display: inline-block;
+   padding: 1px 3px;
+   margin: auto 5px;
+   overflow: unset
 }
 
-* {
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-.code-box,
-code.cht.inc {
+.code_box {
     user-select: text;
     -moz-user-select: text;
     -webkit-user-select: text;
