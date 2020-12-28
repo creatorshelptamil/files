@@ -45,7 +45,7 @@ c[i].setAttribute("ondblclick", "ctc(this)");
 c[i].setAttribute("title", "Double Click To Copy");
 }
 }
-hjjsInt();
+hljsInt();
 function ctc(cls) {
 var range = document.createRange();
 range.selectNode(cls);
