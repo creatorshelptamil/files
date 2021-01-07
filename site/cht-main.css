@@ -255,6 +255,6 @@ figcaption {
     padding: 16px
 }
 
-.cht.table.a tr:nth-child(even) {
+.cht.table.a th {
     background-color: #f1f1f1
 }
