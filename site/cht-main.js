@@ -1,4 +1,3 @@
-(function(){
 //empty var
 var test;
 
@@ -12,5 +11,6 @@ var str = "Hello";
 var el = document.querySelector(".el");
 
 el.innerHTML = "" + str.substring(0,3);
+elB.innerHTML = "" + str.substring(0,3);
 
-}())
+
